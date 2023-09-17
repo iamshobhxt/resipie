@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+}
+.navContainer{
+    width: 100vw;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    display: flex;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+}
+#navlist{
+    width: 100%; 
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+   
+}
+#navlogo{
+    font-size: 1.5rem;
+    color:black;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#item{
+    display: flex;
+    gap:15px;
+}
+footer{
+    width: 100%;
+}
+.footerBox{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    width: 100%;
+    text-align: center;
+    min-height: 20px;
+}
+.footerBox p{
+    color: black;
+    font-size: 1rem;
+   
+} 
+#mainbox{
+    width:100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.contentbox{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 2rem;
+    box-shadow: 1px 1px 30px black;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.leftbox img{
+    border-radius:30px;
+    height:200px;
+    transition:all 0.6s linear 0s;
+}
+.leftbox img:hover{
+    transform: scale(1.1);
+}
+.rightbox h2{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: right;
+    color: rgb(87, 75, 75);
+}
+.processbox{
+    font-size: 0.95rem;
+    color:rgb(23, 88, 148);
+}
+.box1{
+    font-size: 1.2rem;
+    color: rgba(35, 23, 38, 0.593);
+}
+.pgbox{
+    font-size: 1.2rem;
+    color:rgba(35, 23, 38, 0.593);
+}
+.gbbox{
+    font-size: 0.9rem;
+    color: rgb(23, 88, 148);
+}
+.jalbox{
+    font-size:1.2rem;
+    color:rgba(35, 23, 38, 0.593);
+}
+.jal1box{
+    font-size:0.98rem;
+    color: rgb(23, 88, 148);
+}
+.milkbox{
+    font-size:1.2rem;
+    color: rgb(23, 88, 148);
+}
+.milkbox1{
+    font-size: 0.9rem;
+    color: rgb(23, 88, 148);
+}
+.laddubox{
+    font-size:1.2rem;
+    color: rgb(23, 88, 148);
+}
+.laddubox1{
+    font-size:1rem;
+    color: rgb(23, 88, 148);
+}
